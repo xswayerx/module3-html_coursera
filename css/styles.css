@@ -1,0 +1,55 @@
+body {
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    color: #989899;
+    margin-bottom: 0!important;
+    padding-bottom: 10px;
+}
+
+.collapsed {
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+}
+
+a > h1 {
+    color: #000 !important;
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#tall {
+    margin: 0;
+    height: 1200px;
+}
+
+#chicken, #beef, #sushi {
+    background-color: #9b9998;
+    margin-bottom: 15px;
+}
+
+.menu-food {
+    margin: 0 auto 10px;
+}
+
+
+@media (max-width: 767px) {
+    nav {
+        padding-bottom: 0;
+    }
+
+    #chicken, #beef, #sushi {
+        padding: 12px 25px;
+    }
+
+    #collapsable-nav {
+        background-color: #201e1d;
+    }
+}
+  
